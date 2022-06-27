@@ -9,7 +9,7 @@ cd accept_eula && ./build.sh
 ```
 编译结束时会要求手动输入yes同意license.
 
-2. 编译剩余镜像 
+2. 编译剩余镜像(包含vtk, opencv, opencv-contrib)
 
 ```
 cd ../ && ./build.sh
